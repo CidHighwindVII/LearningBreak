@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningBreakAPI", "LearningBreakAPI\LearningBreakAPI.csproj", "{FB596BDE-F03E-41C6-843A-398C63838C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB596BDE-F03E-41C6-843A-398C63838C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB596BDE-F03E-41C6-843A-398C63838C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB596BDE-F03E-41C6-843A-398C63838C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB596BDE-F03E-41C6-843A-398C63838C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D9160DA-9E7E-40F6-B89A-520B789260B3}
+	EndGlobalSection
+EndGlobal
