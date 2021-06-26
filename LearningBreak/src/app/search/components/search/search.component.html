@@ -1,0 +1,20 @@
+<div class="container mt-3">
+  <input (keyup.enter)="onSearch()" class="form-control mr-2" #search style="width: 300px" placeholder="Search"
+    type="text" />
+
+  <button (click)="onSearch()">
+    Search
+  </button>
+</div>
+
+<div class="container" *ngIf="searchList !== undefined && searchList.length > 0">
+  <table>
+    <tbody>
+      <tr class="searchResult" *ngFor="let searchItem of searchList">
+        <td class="primary_photo"> <img src="{{searchItem.imageLink}}">
+        </td>
+        <td class="result_text"> {{searchItem.name}} </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
